@@ -6,7 +6,7 @@ Imports System.Collections.Specialized
 ''' Class for interacting with Databases
 ''' </summary>
 Public Class CDatabaseUtilties
-	'"Data Source=216.26.146.220;Initial Catalog=LogPurchase;Persist Security Info=True;User ID=LogProgram;Password=loglogin;"
+	
 	Private m_strSQLServerConnectionString As String = String.Empty
 	Private m_conSQLDatabaseConnection As SqlClient.SqlConnection
 	Private m_strServerAddress As String = String.Empty
